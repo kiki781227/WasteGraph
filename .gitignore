@@ -1,0 +1,5 @@
+Exemple basique .gitignore
+venv/
+__pycache__/
+*.pyc
+.env
