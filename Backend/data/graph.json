@@ -1,0 +1,71 @@
+{
+  "nodes": {
+    "Strt": {"x": 450, "y": 420},
+    "B": {"x": 400, "y": 340},
+    "A": {"x": 320, "y": 360},
+    "C": {"x": 480, "y": 360},
+    "D": {"x": 510, "y": 300},
+    "F": {"x": 360, "y": 270},
+    "E": {"x": 320, "y": 300},
+    "G": {"x": 440, "y": 270},
+    "K": {"x": 390, "y": 160},
+    "I": {"x": 330, "y": 210},
+    "H": {"x": 260, "y": 220},
+    "J": {"x": 360, "y": 190},
+    "L": {"x": 310, "y": 150}
+  },
+  "edges": {
+    "Strt": [
+      {"to": "B", "weight": 120, "status": "open"}
+    ],
+    "B": [
+      {"to": "S", "weight": 120, "status": "open"},
+      {"to": "A", "weight": 80,  "status": "open"},
+      {"to": "C", "weight": 80,  "status": "open"},
+      {"to": "D", "weight": 100, "status": "open"},
+      {"to": "F", "weight": 140, "status": "open"}
+    ],
+    "A": [
+      {"to": "B", "weight": 80,  "status": "open"}
+    ],
+    "C": [
+      {"to": "B", "weight": 80,  "status": "open"}
+    ],
+    "D": [
+      {"to": "B", "weight": 100, "status": "open"}
+    ],
+    "F": [
+      {"to": "B", "weight": 140, "status": "open"},
+      {"to": "E", "weight": 90,  "status": "open"},
+      {"to": "G", "weight": 100, "status": "open"},
+      {"to": "I", "weight": 110, "status": "open"},
+      {"to": "K", "weight": 100, "status": "open"}
+    ],
+    "E": [
+      {"to": "F", "weight": 90,  "status": "open"}
+    ],
+    "G": [
+      {"to": "F", "weight": 100, "status": "open"}
+    ],
+    "K": [
+      {"to": "L", "weight": 80,  "status": "open"},
+      {"to": "F", "weight": 100, "status": "open"}
+    ],
+    "I": [
+      {"to": "F", "weight": 110, "status": "open"},
+      {"to": "H", "weight": 70,  "status": "open"},
+      {"to": "J", "weight": 70,  "status": "open"},
+      {"to": "L", "weight": 90,  "status": "open"}
+    ],
+    "H": [
+      {"to": "I", "weight": 70,  "status": "open"}
+    ],
+    "J": [
+      {"to": "I", "weight": 70,  "status": "open"}
+    ],
+    "L": [
+      {"to": "I", "weight": 90,  "status": "open"},
+      {"to": "K", "weight": 80,  "status": "open"}
+    ]
+  }
+}
