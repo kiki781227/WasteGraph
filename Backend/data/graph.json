@@ -16,56 +16,56 @@
   },
   "edges": {
     "Strt": [
-      {"to": "B", "weight": 120, "status": "open"}
+      {"to": "B", "weight": 120}
     ],
     "B": [
-      {"to": "S", "weight": 120, "status": "open"},
-      {"to": "A", "weight": 80,  "status": "open"},
-      {"to": "C", "weight": 80,  "status": "open"},
-      {"to": "D", "weight": 100, "status": "open"},
-      {"to": "F", "weight": 140, "status": "open"}
+      {"to": "Strt", "weight": 120},
+      {"to": "A", "weight": 80},
+      {"to": "C", "weight": 80},
+      {"to": "D", "weight": 100},
+      {"to": "F", "weight": 140}
     ],
     "A": [
-      {"to": "B", "weight": 80,  "status": "open"}
+      {"to": "B", "weight": 80}
     ],
     "C": [
-      {"to": "B", "weight": 80,  "status": "open"}
+      {"to": "B", "weight": 80}
     ],
     "D": [
-      {"to": "B", "weight": 100, "status": "open"}
+      {"to": "B", "weight": 100}
     ],
     "F": [
-      {"to": "B", "weight": 140, "status": "open"},
-      {"to": "E", "weight": 90,  "status": "open"},
-      {"to": "G", "weight": 100, "status": "open"},
-      {"to": "I", "weight": 110, "status": "open"},
-      {"to": "K", "weight": 100, "status": "open"}
+      {"to": "B", "weight": 140},
+      {"to": "E", "weight": 90},
+      {"to": "G", "weight": 100},
+      {"to": "I", "weight": 110},
+      {"to": "K", "weight": 100}
     ],
     "E": [
-      {"to": "F", "weight": 90,  "status": "open"}
+      {"to": "F", "weight": 90}
     ],
     "G": [
-      {"to": "F", "weight": 100, "status": "open"}
+      {"to": "F", "weight": 100}
     ],
     "K": [
-      {"to": "L", "weight": 80,  "status": "open"},
-      {"to": "F", "weight": 100, "status": "open"}
+      {"to": "L", "weight": 80},
+      {"to": "F", "weight": 100}
     ],
     "I": [
-      {"to": "F", "weight": 110, "status": "open"},
-      {"to": "H", "weight": 70,  "status": "open"},
-      {"to": "J", "weight": 70,  "status": "open"},
-      {"to": "L", "weight": 90,  "status": "open"}
+      {"to": "F", "weight": 110},
+      {"to": "H", "weight": 70},
+      {"to": "J", "weight": 70},
+      {"to": "L", "weight": 90}
     ],
     "H": [
-      {"to": "I", "weight": 70,  "status": "open"}
+      {"to": "I", "weight": 70}
     ],
     "J": [
-      {"to": "I", "weight": 70,  "status": "open"}
+      {"to": "I", "weight": 70}
     ],
     "L": [
-      {"to": "I", "weight": 90,  "status": "open"},
-      {"to": "K", "weight": 80,  "status": "open"}
+      {"to": "I", "weight": 90},
+      {"to": "K", "weight": 80}
     ]
   }
 }
